@@ -5,6 +5,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 # See packages at https://chocolatey.org/packages/
 # Use according to your own needs...
 
+<# allowing globally confirmation #> 
+choco feature enable -n=allowGlobalConfirmation;
+
 # Essentials
 choco install notepadplusplus -y
 

@@ -10,7 +10,6 @@ choco install notepadplusplus -y
 
 choco install googlechrome -y
 
-choco install adobereader -y
 choco install vlc -y
 
 # Msft & Office

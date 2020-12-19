@@ -39,3 +39,5 @@ choco install wsl2 -y
 
 #docker-desktop
 choco install docker-desktop -y
+
+choco install mongodb -y

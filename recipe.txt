@@ -15,9 +15,6 @@ choco install googlechrome -y
 
 choco install vlc -y
 
-# Msft & Office
-choco install Office365ProPlus -y
-
 choco install skype -y
 
 # Additional Tools
@@ -28,6 +25,7 @@ choco install git -y
 choco install vscode -y
 choco install postman -y
 choco install fiddler -y
+choco install sourcetree
 
 # Microsoft .NET Framework Developer Pack
 choco install netfx-4.8-devpack -y

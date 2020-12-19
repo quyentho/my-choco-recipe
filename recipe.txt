@@ -25,7 +25,7 @@ choco install git -y
 choco install vscode -y
 choco install postman -y
 choco install fiddler -y
-choco install sourcetree
+choco install sourcetree -y
 
 # Microsoft .NET Framework Developer Pack
 choco install netfx-4.8-devpack -y

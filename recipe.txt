@@ -26,6 +26,7 @@ choco install vscode -y
 choco install postman -y
 choco install fiddler -y
 choco install sourcetree -y
+choco install visualstudio2019community
 
 # Microsoft .NET Framework Developer Pack
 choco install netfx-4.8-devpack -y

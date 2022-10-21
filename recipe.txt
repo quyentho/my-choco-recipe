@@ -11,15 +11,11 @@ choco feature enable --name="'exitOnRebootDetected'"
 
 # Essentials
 choco install notepadplusplus -y
-
 choco install googlechrome -y
 
-choco install vlc -y
-
+# Work
+choco install vmware-horizon-client
 choco install skype -y
-
-# Additional Tools
-choco install winrar -y
 
 # Dev
 choco install git -y
@@ -31,18 +27,14 @@ choco install visualstudio2019community
 choco install mongodb -y
 choco install sql-server-management-studio -y
 choco install sql-server-2019 -y
-
+choco install wsl2 -y
+choco install docker-desktop -y
 # Microsoft .NET Framework Developer Pack
 choco install netfx-4.8-devpack -y
 # Microsoft .NET Core
 choco install dotnet-sdk -y
 
-
-# WSL 2
-choco install wsl2 -y
-
-#docker-desktop
-choco install docker-desktop -y
-
 # Personal
-choco install notion
+choco install notion -y
+choco install winrar -y
+choco install vlc -y

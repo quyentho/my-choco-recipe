@@ -12,6 +12,7 @@ choco feature enable --name="'exitOnRebootDetected'"
 # Essentials
 choco install notepadplusplus -y
 choco install googlechrome -y
+choco install powertoys -y
 
 # Work
 choco install vmware-horizon-client
